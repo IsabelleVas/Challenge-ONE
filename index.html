@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cripta texto</title>
+    <!-- Ícone da aba do navegador -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Frame 6alura.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="Frame 6alura.png" alt="logo alura" class="logo">
+    </header>
+    <main>
+        <h1>Cripta Texto</h1>
+        <div class="text-box">
+            <textarea id="inputText" placeholder="Digite seu texto"></textarea>
+            <div class="image-box">
+                <img src="bonecacompleta.jpg" id="imageDisplay" alt="Boneca esperando mensagem">
+                <textarea id="outputText" placeholder="Aqui aparecerá o texto criptografado/descriptografado" style="display:none;"></textarea>
+            </div>
+        </div>
+        <p>Apenas letras minúsculas e sem acento.</p>
+        <div class="buttons">
+            <button onclick="criptografar()">Criptografar</button>
+            <button onclick="descriptografar()">Descriptografar</button>
+        </div>
+    </main>
+    <footer>
+        Desenvolvedora: Isabelle Alcantara
+    </footer>
+</body>
+</html>
